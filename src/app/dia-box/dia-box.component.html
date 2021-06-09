@@ -2,7 +2,7 @@
   <h1 mat-dialog-title>
     Action |::| <strong>{{ action }}</strong>
   </h1>
-  <div mat-dialog-content>
+  <div mat-dialog-content *ngIf="action != 'Delete'; else elseTemplate">
     <mat-form-field>
       <mat-label>First Name</mat-label>
       <input
@@ -11,6 +11,7 @@
         [(ngModel)]="inputData.firstName"
       />
     </mat-form-field>
+
     <mat-form-field>
       <mat-label>Last Name</mat-label>
       <input
@@ -28,6 +29,10 @@
       />
     </mat-form-field>
   </div>
+  <ng-template #elseTemplate>
+    Sure to delete <b>{{ inputData.firstName }}</b
+    >?
+  </ng-template>
   <div mat-dialog-actions>
     <div mat-dialog-actions>
       <button mat-button (click)="doAction()">{{ action }}</button>
