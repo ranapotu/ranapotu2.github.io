@@ -42,6 +42,7 @@ export class DisplayComponent implements OnInit {
         this.addRowData(result.data);
         console.log(result.data);
       } else if (result.event == 'Update') {
+        console.log('u');
         this.updateRowData(result.data);
       }
     });
@@ -59,7 +60,8 @@ export class DisplayComponent implements OnInit {
   }
 
   updateRowData(row_obj: any) {
-    this.dataSource = this.dataSource.filter((value) => {
+    console.log('update');
+    this.dataSource = this.dataSource.filter((value, key) => {
       if (value.id == row_obj.id) {
         console.log(value.id);
         value.firstName = row_obj.firstName;
