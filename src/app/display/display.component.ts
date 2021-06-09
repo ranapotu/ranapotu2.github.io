@@ -41,6 +41,8 @@ export class DisplayComponent implements OnInit {
       if (result.event == 'Add') {
         this.addRowData(result.data);
         console.log(result.data);
+      } else if (result.event == 'Update') {
+        this.updateRowData(result.data);
       }
     });
   }
@@ -52,6 +54,24 @@ export class DisplayComponent implements OnInit {
       email: row_obj.email,
     });
     this.table.renderRows();
-    this.dataSource = [...ELEMENT_DATA];
+    this.dataSource = ELEMENT_DATA;
+    console.log(this.dataSource);
+  }
+
+  updateRowData(row_obj: any) {
+    this.dataSource = this.dataSource.filter((value) => {
+      if (value.id == row_obj.id) {
+        console.log(value.id);
+        value.firstName = row_obj.firstName;
+        value.lastName = row_obj.lastName;
+        value.email = row_obj.email;
+      }
+      return true;
+    });
+  }
+
+  deleteRow(rowid: number) {
+    console.log(rowid);
+    this.dataSource.splice(rowid);
   }
 }
