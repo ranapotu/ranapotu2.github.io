@@ -1,0 +1,82 @@
+[2021-06-09 02:17:02.840] [exthost] [info] extension host started
+[2021-06-09 02:17:02.930] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-09 02:17:02.930] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-09 02:17:02.952] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-09 02:17:02.953] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-09 02:17:02.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-09 02:17:02.957] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-06-09 02:17:03.004] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"extensionId":{"value":"alefragnani.project-manager","_lower":"alefragnani.project-manager"},"activationEvent":"*"}
+[2021-06-09 02:17:03.004] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/alefragnani.project-manager-12.1.0/dist/extension
+[2021-06-09 02:17:03.014] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2021-06-09 02:17:03.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/donjayamanne.githistory-0.6.16/dist/src/extension
+[2021-06-09 02:17:03.065] [exthost] [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode {"startup":true,"extensionId":{"value":"monokai.theme-monokai-pro-vscode","_lower":"monokai.theme-monokai-pro-vscode"},"activationEvent":"*"}
+[2021-06-09 02:17:03.065] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.19/js/main
+[2021-06-09 02:17:03.069] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-06-09 02:17:03.069] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-06-09 02:17:03.096] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-06-09 02:17:03.096] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-06-09 02:17:04.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-09 02:17:04.032] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2021-06-09 02:17:04.053] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-06-09 02:17:04.053] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-09 02:17:04.497] [exthost] [info] eager extensions activated
+[2021-06-09 02:17:04.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-09 02:17:04.539] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-09 02:17:04.632] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:04.632] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-06-09 02:17:04.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:04.651] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-06-09 02:17:04.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:04.656] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-06-09 02:17:04.659] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:04.659] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/eamodio.gitlens-11.4.1/dist/gitlens
+[2021-06-09 02:17:04.834] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:04.834] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/esbenp.prettier-vscode-6.4.0/dist/extension
+[2021-06-09 02:17:37.755] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-06-09 02:17:38.783] [exthost] [info] exiting with code 0
+[2021-06-09 02:17:40.484] [exthost] [info] extension host started
+[2021-06-09 02:17:40.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-09 02:17:40.603] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-09 02:17:40.618] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-09 02:17:40.618] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-09 02:17:40.620] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-09 02:17:40.621] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-06-09 02:17:40.653] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"extensionId":{"value":"alefragnani.project-manager","_lower":"alefragnani.project-manager"},"activationEvent":"*"}
+[2021-06-09 02:17:40.655] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/alefragnani.project-manager-12.1.0/dist/extension
+[2021-06-09 02:17:40.663] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2021-06-09 02:17:40.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/donjayamanne.githistory-0.6.16/dist/src/extension
+[2021-06-09 02:17:40.681] [exthost] [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode {"startup":true,"extensionId":{"value":"monokai.theme-monokai-pro-vscode","_lower":"monokai.theme-monokai-pro-vscode"},"activationEvent":"*"}
+[2021-06-09 02:17:40.681] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.19/js/main
+[2021-06-09 02:17:40.684] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-06-09 02:17:40.684] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-06-09 02:17:40.696] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-06-09 02:17:40.696] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-06-09 02:17:41.106] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-06-09 02:17:41.107] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/npm/dist/npmMain
+[2021-06-09 02:17:41.569] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+[2021-06-09 02:17:41.900] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-06-09 02:17:41.901] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-09 02:17:42.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-09 02:17:42.026] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2021-06-09 02:17:42.228] [exthost] [info] eager extensions activated
+[2021-06-09 02:17:42.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-09 02:17:42.258] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-09 02:17:42.270] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:42.270] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-06-09 02:17:42.278] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:42.278] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-06-09 02:17:42.280] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:42.280] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-06-09 02:17:42.283] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:42.283] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/eamodio.gitlens-11.4.1/dist/gitlens
+[2021-06-09 02:17:42.323] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-06-09 02:17:42.323] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/esbenp.prettier-vscode-6.4.0/dist/extension
+[2021-06-09 02:17:44.707] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 700
+[2021-06-09 02:17:53.109] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-06-09 02:17:53.109] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-06-09 02:17:57.110] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+[2021-06-09 02:18:02.187] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+[2021-06-09 02:18:07.273] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 748
+[2021-06-09 02:18:12.348] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 748
+[2021-06-09 02:18:13.724] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-06-09 02:18:14.757] [exthost] [info] exiting with code 0

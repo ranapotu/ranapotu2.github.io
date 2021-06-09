@@ -6,10 +6,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DisplayComponent } from './display/display.component';
 import { DiaBoxComponent } from './dia-box/dia-box.component';
 import { MaterialModule } from './material/material.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, DisplayComponent, DiaBoxComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, MaterialModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

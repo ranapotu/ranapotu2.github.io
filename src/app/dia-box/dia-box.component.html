@@ -1,1 +1,39 @@
-<p>dia-box works!</p>
+<div>
+  <h1 mat-dialog-title>
+    Action |::| <strong>{{ action }}</strong>
+  </h1>
+  <div mat-dialog-content>
+    <mat-form-field>
+      <mat-label>First Name</mat-label>
+      <input
+        placeholder="{{ action }} Firstname"
+        matInput
+        [(ngModel)]="inputData.firstName"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Last Name</mat-label>
+      <input
+        placeholder="{{ action }} Lastname"
+        matInput
+        [(ngModel)]="inputData.lastName"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input
+        placeholder="{{ action }} Email"
+        matInput
+        [(ngModel)]="inputData.email"
+      />
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <div mat-dialog-actions>
+      <button mat-button (click)="doAction()">{{ action }}</button>
+      <button mat-button (click)="closeDialog()" mat-flat-button color="warn">
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>

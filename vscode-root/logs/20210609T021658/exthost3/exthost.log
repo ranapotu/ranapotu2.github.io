@@ -1,0 +1,19 @@
+[2021-06-09 02:19:20.256] [exthost] [info] extension host started
+[2021-06-09 02:19:20.350] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-09 02:19:20.351] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-09 02:19:20.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-09 02:19:20.361] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-09 02:19:20.364] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-09 02:19:20.364] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-06-09 02:19:20.381] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"extensionId":{"value":"alefragnani.project-manager","_lower":"alefragnani.project-manager"},"activationEvent":"*"}
+[2021-06-09 02:19:20.381] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/alefragnani.project-manager-12.1.0/dist/extension
+[2021-06-09 02:19:20.387] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2021-06-09 02:19:20.387] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/donjayamanne.githistory-0.6.16/dist/src/extension
+[2021-06-09 02:19:20.402] [exthost] [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode {"startup":true,"extensionId":{"value":"monokai.theme-monokai-pro-vscode","_lower":"monokai.theme-monokai-pro-vscode"},"activationEvent":"*"}
+[2021-06-09 02:19:20.402] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.19/js/main
+[2021-06-09 02:19:20.405] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-06-09 02:19:20.405] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-06-09 02:19:20.414] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-06-09 02:19:20.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/ranapotu/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-06-09 02:19:20.934] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-06-09 02:19:21.947] [exthost] [info] exiting with code 0

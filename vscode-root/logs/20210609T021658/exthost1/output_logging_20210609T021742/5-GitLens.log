@@ -1,0 +1,6 @@
+[2021-06-09 01:17:53:320] Warning(/usr/local/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental -- src/app/dia-box/dia-box.component.html): warning: unable to access '/Users/ranapotu/.config/git/attributes': Permission denied
+warning: unable to access '/Users/ranapotu/.config/git/attributes': Permission denied
+
+[2021-06-09 01:18:00:187] Warning(/usr/local/bin/git -c core.quotepath=false -c color.ui=false blame --root --incremental --contents - -- src/app/dia-box/dia-box.component.html): warning: unable to access '/Users/ranapotu/.config/git/attributes': Permission denied
+warning: unable to access '/Users/ranapotu/.config/git/attributes': Permission denied
+
