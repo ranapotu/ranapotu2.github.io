@@ -42,8 +42,9 @@ export class DisplayComponent implements OnInit {
         this.addRowData(result.data);
         console.log(result.data);
       } else if (result.event == 'Update') {
-        console.log('u');
         this.updateRowData(result.data);
+      } else if (result.event == 'Delete') {
+        this.deleteRowData(result.data);
       }
     });
   }
@@ -72,8 +73,9 @@ export class DisplayComponent implements OnInit {
     });
   }
 
-  deleteRow(rowid: number) {
-    console.log(rowid);
-    this.dataSource.splice(rowid);
+  deleteRowData(row_obj: any) {
+    this.dataSource = this.dataSource.filter((value, key) => {
+      return value.id != row_obj.id;
+    });
   }
 }
