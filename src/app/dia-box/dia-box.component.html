@@ -9,6 +9,7 @@
         placeholder="{{ action }} Firstname"
         matInput
         [(ngModel)]="inputData.firstName"
+        required
       />
     </mat-form-field>
 
@@ -18,6 +19,7 @@
         placeholder="{{ action }} Lastname"
         matInput
         [(ngModel)]="inputData.lastName"
+        required
       />
     </mat-form-field>
     <mat-form-field>
@@ -26,6 +28,8 @@
         placeholder="{{ action }} Email"
         matInput
         [(ngModel)]="inputData.email"
+        required
+        email
       />
     </mat-form-field>
   </div>
