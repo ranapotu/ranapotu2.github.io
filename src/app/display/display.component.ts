@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { UserInput } from '../user-input';
 import { DiaBoxComponent } from '../dia-box/dia-box.component';
+import { MatTable } from '@angular/material/table';
 
 const ELEMENT_DATA: UserInput[] = [
   { id: 1, firstName: 'Mark', lastName: 'Toss', email: 'mark.toss@gmail.com' },
@@ -27,6 +28,8 @@ export class DisplayComponent implements OnInit {
   ];
   dataSource = ELEMENT_DATA;
 
+  @ViewChild(MatTable, { static: true }) table!: MatTable<any>;
+
   openDialog(action: string, obj: any) {
     console.log(obj, action);
     obj.action = action;
@@ -37,16 +40,18 @@ export class DisplayComponent implements OnInit {
     dialogRef.afterClosed().subscribe((result) => {
       if (result.event == 'Add') {
         this.addRowData(result.data);
+        console.log(result.data);
       }
     });
   }
   addRowData(row_obj: any) {
-    var d = new Date();
     this.dataSource.push({
-      id: d.getTime(),
+      id: ELEMENT_DATA.length + 1,
       firstName: row_obj.firstName,
       lastName: row_obj.lastName,
       email: row_obj.email,
     });
+    this.table.renderRows();
+    this.dataSource = [...ELEMENT_DATA];
   }
 }
